@@ -18,3 +18,5 @@ WebElement elementtobeClicked = driver.findElement(By.xpath(ele));
     https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/2602
     Action clickElement = builder.moveToElement(element).sendKeys(Keys.ENTER).build();
 clickElement.perform();
+===官网给出的解决办法
+https://chromedriver.chromium.org/help/clicking-issues
