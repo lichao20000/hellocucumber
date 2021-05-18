@@ -15,5 +15,6 @@ WebElement elementtobeClicked = driver.findElement(By.xpath(ele));
     JavascriptExecutor jsDriver = (JavascriptExecutor) driver;
     jsDriver.executeScript("arguments[0].click();",elementtobeClicked);
     ====================================================================================
+    https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/2602
     Action clickElement = builder.moveToElement(element).sendKeys(Keys.ENTER).build();
 clickElement.perform();
