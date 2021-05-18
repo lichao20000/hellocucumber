@@ -1,3 +1,16 @@
 https://chromedriver.chromium.org/downloads   using the right version of chrome 
 
 https://www.cnblogs.com/yhleng/p/10212534.html 参考解决方案 移动点击位置
+
+https://stackoverflow.com/questions/11676790/click-command-in-selenium-webdriver-does-not-work
+
+
+WebElement elementtobeClicked = driver.findElement(By.xpath(ele));
+
+     //Option 1
+     Actions actionDriver = new Actions(driver);
+     actionDriver.moveToElement(elementtobeClicked).click().perform();
+
+     //Option2
+    JavascriptExecutor jsDriver = (JavascriptExecutor) driver;
+    jsDriver.executeScript("arguments[0].click();",elementtobeClicked);
