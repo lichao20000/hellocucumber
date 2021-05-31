@@ -1,3 +1,11 @@
+https://github.com/foxysoft/idm-connector-bobj/issues/19
+
+
+
+
+
+
+
 https://chromedriver.chromium.org/downloads   using the right version of chrome 
 
 https://www.cnblogs.com/yhleng/p/10212534.html 参考解决方案 移动点击位置
