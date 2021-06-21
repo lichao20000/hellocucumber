@@ -1,3 +1,8 @@
+使用LCM工具导入导出
+https://blogs.sap.com/2018/03/06/sap-bi-platform-promotion-management-sdk/
+
+
+
 https://github.com/foxysoft/idm-connector-bobj/issues/19
 
 
